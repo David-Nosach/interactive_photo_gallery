@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+.gallery {
+  display: grid;
+  max-width: 900px;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 25px;
+}
+
+/* Search Bar --------------------- */
+
+#search {
+  margin-left: 25%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 15px;
+  border-radius: 5px;
+  width: 50%;
+  max-width: 700px;
+}
+
